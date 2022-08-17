@@ -41,7 +41,8 @@ numero_1 = 49
 numero_2 = 50
 
 # COMPLETAR - INICIO
-resultado = (numero_1 % 7 = 0) and (numero_2 % 7  != 0)
+resultado = not numero_1 % 7 and numero_2 % 7  
+print(resultado)
 # COMPLETAR - FIN
 
 assert resultado
@@ -60,7 +61,8 @@ variable_04 = "90"
 variable_05 = 100
 
 # COMPLETAR - INICIO
-
+resultado = variable_03 or variable_02 and variable_05 and variable_04 and variable_01
+print(resultado)
 # COMPLETAR - FIN
 
 assert resultado == 80
