@@ -29,6 +29,7 @@ usar operadores).
 
 # COMPLETAR - INICIO
 
+            
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
