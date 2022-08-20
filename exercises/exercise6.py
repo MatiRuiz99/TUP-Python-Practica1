@@ -26,10 +26,11 @@ Restricción: Utilizar el método pop
 lista = ["ho", "la", 81, 6, 42, "como", "estas?"]
 
 # COMPLETAR - INICIO
-print(lista.pop(3))
+elemento_extraido = lista.pop(3)
+print(elemento_extraido)
 # COMPLETAR - FIN
 
-#assert elemento_extraido == 6
+assert elemento_extraido == 6
 
 
 """
@@ -214,7 +215,7 @@ Restricción: Utilizar el método any
 notas = [False, False, False, False, False, False, False, False, False]
 
 # COMPLETAR - INICIO
-no_tiene_examenes_aprobados = any(notas)
+no_tiene_examenes_aprobados = not any(notas)
 print(no_tiene_examenes_aprobados)
 
 # COMPLETAR - FIN

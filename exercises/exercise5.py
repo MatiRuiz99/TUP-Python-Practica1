@@ -67,13 +67,13 @@ variable_04 = " años."
 variable_05 = "Ezequiel"
 
 # COMPLETAR - INICIO
-strings_concatenados = "{} {} {} {} {} Se llama {}".format(variable_01, variable_02, variable_03, variable_02, variable_04, variable_05)
+strings_concatenados = "{}{}{}{}{} Se llama {}".format(variable_01, variable_02, variable_03, variable_02, variable_04, variable_05)
 print(strings_concatenados)
 # COMPLETAR - FIN
 
-# assert  (
- #   strings_concatenados == "Le debo 6 pesos a un amigo hace 6 años. Se llama Ezequiel"
-#)
+assert  (
+    strings_concatenados == "Le debo 6 pesos a un amigo hace 6 años. Se llama Ezequiel"
+)
 
 
 """
@@ -87,7 +87,7 @@ variable_03 = " pesos que le debía a Ezequiel, me faltan $"
 variable_04 = 4
 
 # COMPLETAR - INICIO
-strings_concatenados = f'{variable_01} {variable_02} {variable_03} {variable_04}'
+strings_concatenados = f'{variable_01}{variable_02}{variable_03}{variable_04}'
 print(strings_concatenados)
 # COMPLETAR - FIN
 
