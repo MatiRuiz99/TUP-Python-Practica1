@@ -29,8 +29,13 @@ usar operadores).
 # "strings!"
 
 # COMPLETAR - INICIO
+<<<<<<< HEAD
+
+            
+=======
 strings_concatenados= "{}".format("¡Mamá " "estoy concatenando " "strings!")
 print(strings_concatenados)
+>>>>>>> eb8eae07852a226d73f85cd08cbe5d0d7a33acf5
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
