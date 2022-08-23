@@ -14,15 +14,15 @@ numero_2 = 2
 numero_3 = 3
 
 # COMPLETAR - INICIO
-conjunto_01 = set()
-conjunto_01.add(1)
-conjunto_01.add(2)
-conjunto_01.add(3)
-print(conjunto_01)
+conjunto_1 = set()
+conjunto_1.add(1)
+conjunto_1.add(2)
+conjunto_1.add(3)
+print(conjunto_1)
 
 # COMPLETAR - FIN
 
-#assert conjunto_1 == {1, 2, 3}
+assert conjunto_1 == {1, 2, 3}
 
 
 """
@@ -36,14 +36,14 @@ domicilio = "Los sauces 3446"
 edad = "35"
 
 # COMPLETAR - INICIO
-conjunto_02 = {"5","6","7"}
-conjunto_02.add(edad)
-conjunto_02.add(domicilio)
-conjunto_02.add(nombre)
-print(conjunto_02)
+conjunto_2 = {"5","6","7"}
+conjunto_2.add(edad)
+conjunto_2.add(domicilio)
+conjunto_2.add(nombre)
+print(conjunto_2)
 # COMPLETAR - FIN
 
-#assert conjunto_2 == {"35", "Esteban", "7", "6", "Los sauces 3446", "5"}
+assert conjunto_2 == {"35", "Esteban", "7", "6", "Los sauces 3446", "5"}
 
 
 """
@@ -58,7 +58,7 @@ conjunto_interseccion  = conjunto_03 & conjunto_04
 print(conjunto_interseccion)
 # COMPLETAR - FIN
 
-#assert conjunto_interseccion == {10, 4, 21}
+assert conjunto_interseccion == {10, 4, 21}
 
 """
 Dados dos conjuntos calcular su interseccion utiilizando el metodo intersection
@@ -72,7 +72,7 @@ conjunto_interseccion = conjunto_03.intersection(conjunto_04)
 print(conjunto_interseccion)
 # COMPLETAR - FIN
 
-#assert conjunto_interseccion == {10, 4, 21}
+assert conjunto_interseccion == {10, 4, 21}
 
 
 """
@@ -87,7 +87,7 @@ conjunto_union = conjunto_05 | conjunto_06
 print(conjunto_union)
 # COMPLETAR - FIN
 
-#assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
+assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
 
 
 """
@@ -102,7 +102,7 @@ conjunto_union = conjunto_05.union(conjunto_06)
 print(conjunto_union)
 # COMPLETAR - FIN
 
-#assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
+assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
 
 
 """
@@ -117,7 +117,7 @@ conjunto_diferencia = conjunto_07 - conjunto_08
 print(conjunto_diferencia)
 # COMPLETAR - FIN
 
-#assert conjunto_diferencia == {1, 3, 5, 7}
+assert conjunto_diferencia == {1, 3, 5, 7}
 
 
 """
@@ -132,7 +132,7 @@ conjunto_diferencia = conjunto_07.difference(conjunto_08)
 print(conjunto_diferencia)
 # COMPLETAR - FIN
 
-#assert conjunto_diferencia == {1, 3, 5, 7}
+assert conjunto_diferencia == {1, 3, 5, 7}
 
 
 """
@@ -148,7 +148,7 @@ conjunto_diferencia_simetrica  = conjunto_09^conjunto_10
 print(conjunto_diferencia_simetrica)
 # COMPLETAR - FIN
 
-#assert conjunto_diferencia_simetrica == {4, 9}
+assert conjunto_diferencia_simetrica == {4, 9}
 
 
 """
@@ -163,4 +163,4 @@ conjunto_diferencia_simetrica  = conjunto_09.symmetric_difference(conjunto_10)
 print(conjunto_diferencia_simetrica)
 # COMPLETAR - FIN
 
-#assert conjunto_diferencia_simetrica == {4, 9}
+assert conjunto_diferencia_simetrica == {4, 9}
